@@ -32,6 +32,7 @@
         <module>configcenter-web</module>
         <module>configcenter-common</module>
         <module>configcenter-tool</module>
+        <module>configcenter-remoting</module>
     </modules>
 
     <developers>
