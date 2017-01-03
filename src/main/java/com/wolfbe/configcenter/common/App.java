@@ -1,4 +1,4 @@
-package com.wolfbe.configcenter;
+package com.wolfbe.configcenter.common;
 
 /**
  * Hello world!

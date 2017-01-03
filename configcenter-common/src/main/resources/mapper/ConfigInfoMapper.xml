@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wolfbe.configcenter.common.mapper.ConfigInfoMapper">
+  <resultMap id="BaseResultMap" type="com.wolfbe.configcenter.common.model.ConfigInfo">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="gname" jdbcType="VARCHAR" property="gname" />
+    <id column="ckey" jdbcType="VARCHAR" property="ckey" />
+    <result column="version" jdbcType="INTEGER" property="version" />
+    <result column="commit_time" jdbcType="TIMESTAMP" property="commitTime" />
+    <result column="cval" jdbcType="LONGVARCHAR" property="cval" />
+  </resultMap>
+</mapper>

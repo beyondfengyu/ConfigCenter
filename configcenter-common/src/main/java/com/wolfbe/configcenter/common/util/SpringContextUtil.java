@@ -1,4 +1,4 @@
-package com.wolfbe.configcenter.util;
+package com.wolfbe.configcenter.common.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

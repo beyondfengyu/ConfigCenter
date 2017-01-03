@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wolfbe.configcenter.common.mapper.ConfigLogMapper">
+  <resultMap id="BaseResultMap" type="com.wolfbe.configcenter.common.model.ConfigLog">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="log_type" jdbcType="INTEGER" property="logType" />
+    <result column="gname" jdbcType="VARCHAR" property="gname" />
+    <result column="ckey" jdbcType="VARCHAR" property="ckey" />
+    <result column="version" jdbcType="INTEGER" property="version" />
+    <result column="ipallow" jdbcType="VARCHAR" property="ipallow" />
+    <result column="grpallow" jdbcType="VARCHAR" property="grpallow" />
+    <result column="commit_time" jdbcType="TIMESTAMP" property="commitTime" />
+    <result column="op" jdbcType="INTEGER" property="op" />
+    <result column="cval" jdbcType="LONGVARCHAR" property="cval" />
+  </resultMap>
+</mapper>

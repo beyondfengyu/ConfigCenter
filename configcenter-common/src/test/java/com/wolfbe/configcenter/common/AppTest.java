@@ -1,4 +1,4 @@
-package com.wolfbe.configcenter;
+package com.wolfbe.configcenter.common;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

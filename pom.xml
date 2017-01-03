@@ -22,15 +22,17 @@
     <groupId>com.wolfbe.configcenter</groupId>
     <artifactId>configcenter-all</artifactId>
     <version>1.0.0</version>
-    <modules>
-        <module>configcenter-server</module>
-        <module>configcenter-client</module>
-        <module>configcenter-web</module>
-    </modules>
     <packaging>pom</packaging>
     <name>configcenter-all ${project.version}</name>
     <url>https://github.com/beyondfengyu/configcenter.git</url>
 
+    <modules>
+        <module>configcenter-server</module>
+        <module>configcenter-client</module>
+        <module>configcenter-web</module>
+        <module>configcenter-common</module>
+        <module>configcenter-tool</module>
+    </modules>
 
     <developers>
         <developer>
@@ -68,8 +70,29 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>configcenter-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>configcenter-server</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>configcenter-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>configcenter-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
