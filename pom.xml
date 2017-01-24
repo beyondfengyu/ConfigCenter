@@ -23,6 +23,7 @@
     <artifactId>configcenter-all</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
+
     <name>configcenter-all ${project.version}</name>
     <url>https://github.com/beyondfengyu/configcenter.git</url>
 
@@ -37,17 +38,16 @@
 
     <developers>
         <developer>
-            <id>Andy</id>
+            <id>3162057882</id>
             <name>Andy</name>
             <roles>
                 <role>project leader</role>
                 <role>architect</role>
             </roles>
-            <email>lcybeyondfengyu@gmail.com</email>
+            <email>3162057882@qq.com</email>
             <url>https://github.com/beyondfengyu</url>
             <timezone>8</timezone>
         </developer>
-
     </developers>
 
     <licenses>
